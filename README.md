@@ -38,10 +38,10 @@ python main_run.py
 ```
 
 ## 🤗 Demo
-First, you need to download YOLOv3 and HRNet pretrained models [here](https://pan.baidu.com/s/17M3JLYTIArtrC7MnANW5kw?pwd=tjqx) and put it in the './demo/lib/checkpoint' directory. 
-Then, you need to put your in-the-wild videos in the './demo/video' directory. 
+First, download the pretrained YOLOv3 and HRNet models from the provided [link](https://pan.baidu.com/s/17M3JLYTIArtrC7MnANW5kw?pwd=tjqx) and place them in the './demo/lib/checkpoint' directory.
+Then, place your in-the-wild videos in the './demo/video' directory.
 
-Run the command below:
+Run the following commands:
 ```bash
 python demo/vis.py --video sample_video1.mp4
 

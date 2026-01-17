@@ -37,6 +37,23 @@ To train the DDCEFormer model on Human3.6M:
 python main_run.py
 ```
 
+## 🤗 Demo
+First, you need to download YOLOv3 and HRNet pretrained models [here](https://pan.baidu.com/s/17M3JLYTIArtrC7MnANW5kw?pwd=tjqx) and put it in the './demo/lib/checkpoint' directory. 
+Then, you need to put your in-the-wild videos in the './demo/video' directory. 
+
+Run the command below:
+```bash
+python demo/vis.py --video sample_video1.mp4
+
+python demo/vis.py --video sample_video2.mp4
+```
+
+Sample demo output:
+
+<p align="center"><img src="figure/sample_video1.gif" width="60%" alt="" /></p>
+<p align="center"><img src="figure/sample_video2.gif" width="60%" alt="" /></p>
+
+
 ## 👍 Acknowledgement
 
 Our code is extended from the following repositories. We thank the authors for releasing the codes. 

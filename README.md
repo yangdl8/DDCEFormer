@@ -7,7 +7,7 @@
 
 ## 🐳 Download pretrained models
 
-🔥DDCEFormer🔥's pretrained models can be found in [here](https://pan.baidu.com/s/1JvAar932oFHDbiCwRqCL1A?pwd=6ttw), please download it and put it in the './pretrained' directory. 
+🔥DDCEFormer🔥's pretrained models can be found in [here](https://pan.baidu.com/s/1zT7Cf0CZVVSduyJ92LYuSA?pwd=a311), please download it and put it in the './pretrained' directory. 
   
 ## 🤖 Dataset setup
 
@@ -26,16 +26,9 @@ ${POSE_ROOT}/
 You can obtain the results. 
 
 ```bash
-python main_run.py --test --previous_dir pretrained 
-```
-
-## ⚡ Train the model
-
-To train the DDCEFormer model on Human3.6M:
-
-```bash
 python main_run.py
 ```
+
 
 ## 🤗 Demo
 First, download the pretrained YOLOv3 and HRNet models from the provided [link](https://pan.baidu.com/s/17M3JLYTIArtrC7MnANW5kw?pwd=tjqx) and place them in the './demo/lib/checkpoint' directory.

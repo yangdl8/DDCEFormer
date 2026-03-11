@@ -1,2 +1,0 @@
-## 🐳 Run model log directory
-
